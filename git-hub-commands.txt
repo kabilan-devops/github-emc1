@@ -1,0 +1,30 @@
+To add our GitHub account into our local system in terminal type the command
+--> git config --global user.name "kabilan-devops"
+--> git config --global user.email "m2kabilan.e@gmail.com"
+
+we need to add our username and email 
+
+Note .git file is the interface or bridge between our local system and our GitHub repository
+
+To check the status of our local system like what the files we created or file contents added
+--> git status
+
+Note the files which we had in git hub and clone is it is git folder and file we created in local will be called as working folder or file
+
+to add the working file or if we update any file we need to first check the status like which files are added and need to be added to GitHub
+-->git status
+--> git add file_name 
+if we need to add more files just give the folder name
+--> git add .
+after adding the file name it will be move to staging area and we need to push it to git hub before pushing it we need to commit the changes it is like saving the changes we done
+--> git commit -m "text file is added"
+after commiting we need to push it to the origin file here origin is the GitHub repository we created we need to choose the branch where we need to store it
+Note: branches are like folders in GitHub repository
+--> git push origin main
+
+so first we need to add,commit and push
+
+  -->git status
+  --> git add file_name
+  --> git commit -m "text file is added"
+  --> git push origin main
